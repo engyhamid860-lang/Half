@@ -2,12 +2,14 @@
   "name": "my-project",
   "version": "0.1.0",
   "private": true,
+
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint ."
   },
+
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
     "@next/swc-wasm-nodejs": "^16.1.6",
@@ -45,6 +47,7 @@
     "cmdk": "1.1.1",
     "date-fns": "4.1.0",
     "embla-carousel-react": "8.6.0",
+    "firebase": "^10.12.2",
     "input-otp": "1.4.2",
     "lucide-react": "^0.564.0",
     "next": "16.1.6",
@@ -57,10 +60,11 @@
     "recharts": "2.15.0",
     "sonner": "^1.7.1",
     "tailwind-merge": "^3.3.1",
-"zod": "^3.24.1",
-"firebase": "^10.12.2",
-"vaul": "^0.9.0",
-"devDependencies": {
+    "vaul": "^0.9.0",
+    "zod": "^3.24.1"
+  },
+
+  "devDependencies": {
     "@tailwindcss/postcss": "^4.2.0",
     "@types/node": "^22",
     "@types/react": "19.2.14",
