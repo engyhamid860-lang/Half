@@ -117,10 +117,12 @@
 
 @layer base {
   * {
-    @apply border outline-none;
+    border-color: #333;
   }
+
   body {
-    @apply bg-background text-foreground;
+    background: #1a0a2e;
+    color: white;
     overscroll-behavior: none;
     -webkit-tap-highlight-color: transparent;
     user-select: none;
